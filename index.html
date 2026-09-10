@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIMSA - Carrocerías y Fabricación Especializada</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1b365d, #0d1b2a);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid #1b365d;
+        }
+        .card h3 {
+            color: #1b365d;
+            margin-bottom: 0.8rem;
+        }
+        .cta-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 2.5rem;
+            text-align: center;
+            margin-top: 3rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            box-shadow: 0 4px 10px rgba(+522821002345);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #0d1b2a;
+            color: #8d99ae;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CARROCERÍAS Y TRABAJOS JIMSA</h1>
+        <p>Fabricación, soldadura y adaptación de carrocerías a la medida</p>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; color: #1b365d; margin-top: 1rem;">Nuestros Servicios Especializados</h2>
+        
+        <div class="services">
+            <div class="card">
+                <h3>Cajas Secas y de Mudanza</h3>
+                <p>Fabricadas con estructura reforzada, térmicas y adaptadas a las dimensiones y requerimientos de tu unidad.</p>
+            </div>
+            <div class="card">
+                <h3>Carrocerías de Redilas</h3>
+                <p>Diseños tradicionales estilo Michoacana y adaptaciones de alta durabilidad para carga pesada.</p>
+            </div>
+            <div class="card">
+                <h3>Tolvas y Rampas Hidráulicas</h3>
+                <p>Instalación y mantenimiento de sistemas hidráulicos, rampas ocultas y tolvas para volteo.</p>
+            </div>
+            <div class="card">
+                <h3>Mantenimiento y Modificación</h3>
+                <p>Reparaciones estructurales, trabajo de soldadura de precisión y alineación de láminas para flotillas.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>¿Tienes un proyecto o necesitas una cotización?</h2>
+            <p style="margin-top: 0.5rem; color: #666;">Te atendemos directamente para revisar dimensiones, calibres y presupuestos.</p>
+            <!-- Cambia el número de teléfono después de 'phone=' por tu número con código de país (ejemplo: 521234567890) -->
+            <a href="https://api.whatsapp.com/send?phone=521234567890&text=Hola,%20me%20interesa%20una%20cotización" class="btn-whatsapp" target="_blank">
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Ubicados en Carretera México-Veracruz, San Antonio El Limón Totalco, Ver.</p>
+        <p style="margin-top: 0.5rem;">&copy; 2026 JIMSA. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
